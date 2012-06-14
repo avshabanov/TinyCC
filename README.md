@@ -1,4 +1,4 @@
-# Tiny C Compiler
+# Tiny C Compiler [![Build Status](https://secure.travis-ci.org/TinyCC/TinyCC.png?branch=master)](http://travis-ci.org/TinyCC/TinyCC)
 
 C Scripting Everywhere - The Smallest ANSI C compiler
 
