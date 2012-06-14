@@ -1,8 +1,7 @@
-Tiny C Compiler - C Scripting Everywhere - The Smallest ANSI C compiler
------------------------------------------------------------------------
+# Tiny C Compiler - C Scripting Everywhere - The Smallest ANSI C compiler
 
-Features:
---------
+
+## Features
 
 - SMALL! You can compile and execute C code everywhere, for example on
   rescue disks.
@@ -25,8 +24,7 @@ Features:
   line of your C source, and execute it directly from the command
   line.
 
-Documentation:
--------------
+## Documentation
 
 1) Installation on a i386 Linux host (for Windows read tcc-win32.txt)
 
@@ -39,7 +37,7 @@ By default, tcc is installed in /usr/local/bin.
 ./configure --help  shows configuration options.
 
 
-2) Introduction
+## Introduction
 
 We assume here that you know ANSI C. Look at the example ex1.c to know
 what the programs look like.
@@ -54,7 +52,7 @@ launch the C code as a shell or perl script :-) The command line
 arguments are put in 'argc' and 'argv' of the main functions, as in
 ANSI C.
 
-3) Examples
+## Examples
 
 ex1.c: simplest example (hello world). Can also be launched directly
 as a script: './ex1.c'.
@@ -76,14 +74,13 @@ generator.
 tcctest.c: auto test for TCC which tests many subtle possible bugs. Used
 when doing 'make test'.
 
-4) Full Documentation
+## Full Documentation
 
 Please read tcc-doc.html to have all the features of TCC.
 
 Additional information is available for the Windows port in tcc-win32.txt.
 
-License:
--------
+## License
 
 TCC is distributed under the GNU Lesser General Public License (see
 COPYING file).
