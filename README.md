@@ -1,4 +1,6 @@
-# Tiny C Compiler - C Scripting Everywhere - The Smallest ANSI C compiler
+# Tiny C Compiler
+
+C Scripting Everywhere - The Smallest ANSI C compiler
 
 
 ## Features
@@ -7,8 +9,8 @@
   rescue disks.
 
 - FAST! tcc generates optimized x86 code. No byte code
-  overhead. Compile, assemble and link about 7 times faster than 'gcc
-  -O0'.
+  overhead. Compile, assemble and link about 7 times faster than `gcc
+  -O0`.
 
 - UNLIMITED! Any C dynamic library can be used directly. TCC is
   heading torward full ISOC99 compliance. TCC can of course compile
@@ -20,7 +22,7 @@
 - Compile and execute C source directly. No linking or assembly
   necessary. Full C preprocessor included. 
 
-- C script supported : just add '#!/usr/local/bin/tcc -run' at the first
+- C script supported : just add `#!/usr/local/bin/tcc -run` at the first
   line of your C source, and execute it directly from the command
   line.
 
@@ -28,14 +30,15 @@
 
 1) Installation on a i386 Linux host (for Windows read tcc-win32.txt)
 
-   ./configure
-   make
-   make test
-   make install
+```
+./configure
+make
+make test
+make install
+```
 
 By default, tcc is installed in /usr/local/bin.
-./configure --help  shows configuration options.
-
+`./configure --help`  shows configuration options.
 
 ## Introduction
 
@@ -46,10 +49,10 @@ The include file <tcclib.h> can be used if you want a small basic libc
 include support (especially useful for floppy disks). Of course, you
 can also use standard headers, although they are slower to compile.
 
-You can begin your C script with '#!/usr/local/bin/tcc -run' on the first
-line and set its execute bits (chmod a+x your_script). Then, you can
+You can begin your C script with `#!/usr/local/bin/tcc -run` on the first
+line and set its execute bits (`chmod a+x your_script`). Then, you can
 launch the C code as a shell or perl script :-) The command line
-arguments are put in 'argc' and 'argv' of the main functions, as in
+arguments are put in `argc` and `argv` of the main functions, as in
 ANSI C.
 
 ## Examples
@@ -72,7 +75,7 @@ tcc.c: TCC can of course compile itself. Used to check the code
 generator.
 
 tcctest.c: auto test for TCC which tests many subtle possible bugs. Used
-when doing 'make test'.
+when doing `make test`.
 
 ## Full Documentation
 
